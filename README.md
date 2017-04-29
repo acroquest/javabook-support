@@ -6,7 +6,7 @@
 
 本書の正誤情報は以下のページで公開しています。
 
-https://github.com/acroquest/javabook-support/wiki/errata
+https://github.com/acroquest/javabook-support/blob/master/errata.md
 
 本ページに掲載されていない誤植など間違いを見つけた方は、issueにてお知らせください。
 
