@@ -13,6 +13,7 @@
 |3|p.70 3L|valueOfメソッドを利用した場合は、-127から128の範囲であれば|valueOfメソッドを利用した場合は、-128から127の範囲であれば|2017/04/22|
 |3|p.82 「3-2-7 インタフェース」中央|インタフェースは必ずpublicになるため、インタフェース名の前に書くpublicは省略することができます。ただ、筆者はpublicであることを明示するため、常にpublicをつけるようにしています。|（削除）|2017/04/18|
 |4|p.108 「4-1-1 配列の基本を理解する」 中央のコード|int fib1 = 1;<br>int fib2 = 1;|int fib0 = 0;<br>int fib1 = 1;<br>int fib2 = fib0 + fib1;|2017/04/18|
+|4|p.126 「4-3-3 Listの代表的なメソッド」 の実行結果|⑧Shinが含まれているか：true|⑧Shinが含まれているか：false|2017/05/01|
 |4|p.134 表「Mapインタフェースでの要素の取得、変換」の「メソッド名」「役割」「説明」|valueSet　値の集合の取得　Mapないのすべての要素の値の集合を取得する|values　値のコレクションの取得　Map内のすべての要素の値のコレクションを取得する|2017/04/18|
 |4|p.145 Note「MapとSetの関係」|通常は boolean 型で「TRUE」が格納されます。この boolean 値は、使用されることはありません。|通常は Boolean 型で「TRUE」が格納されます。この Boolean 値は、使用されることはありません。|2017/04/22|
 |5|p.153 「関数型インタフェースの代替として使用する」のコード|students.forEach(s -><br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(s.getName() + ":" + s.getScore()));|Arrays.stream(students).forEach(s -><br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(s.getName() + ":" + s.getScore()));|2017/04/23|
