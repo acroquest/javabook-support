@@ -29,6 +29,6 @@
 |9|p.286 「DateTimeParseException 例外が発生します」の実行結果|java.time.format.DateTimeParseException: Text '2017-02-25 19:09:59' could not be parsed at index 4|java.time.format.DateTimeParseException: Text '2017/02/25' could not be parsed at index 10|2017/04/29|
 |12|p.354 「12-2-3 Singletonパターン　～あるクラスについて、インスタンスが単一であることを保証する」のコード|return instance|return instance;|2017/04/25|
 |索引|p.437|AutoClosableインタフェース<br>Closableインタフェース|AutoCloseableインタフェース<br>Closeableインタフェース|2017/04/18|
-|索引|p.441|valueSetメソッド|valuesメソッド|2017/04/18|
 |索引|p.438|（DELETE_ON_CLOSEのページ数）233|246|2017/05/01|
+|索引|p.441|valueSetメソッド|valuesメソッド|2017/04/18|
 |著者略歴|p.446 谷本 心|関西 Java エンジニアの立ち上げや、|関西 Java エンジニアの会の立ち上げや、|2017/04/22|
