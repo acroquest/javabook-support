@@ -29,6 +29,7 @@
 |8|p.253 図「staff.xml をツリー構造で表すと」|Document-Element(staff)|Document-Element(staffs)|2017/04/29|
 |8|p.256 頭のソースコード 8L|parser = factory.newSAXParser();|（削除）|2017/05/01|
 |9|p.286 「DateTimeParseException 例外が発生します」の実行結果|java.time.format.DateTimeParseException: Text '2017-02-25 19:09:59' could not be parsed at index 4|java.time.format.DateTimeParseException: Text '2017/02/25' could not be parsed at index 10|2017/04/29|
+|12|p.352 「12-2-2 Builderパターン　〜複合化されたインスタンスの生成過程を隠ぺいする」のコード|（追加）|■TopPage.java<br>public class TopPage extends Page {<br>&nbsp;&nbsp;&nbsp;&nbsp;// 内容はPageと同じ。<br>}|2017/05/01|
 |12|p.354 「12-2-3 Singletonパターン　～あるクラスについて、インスタンスが単一であることを保証する」のコード|return instance|return instance;|2017/04/25|
 |索引|p.437|AutoClosableインタフェース<br>Closableインタフェース|AutoCloseableインタフェース<br>Closeableインタフェース|2017/04/18|
 |索引|p.438|（DELETE_ON_CLOSEのページ数）233|246|2017/05/01|
