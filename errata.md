@@ -23,10 +23,12 @@
 |6|p.199 表「Optional クラスが持つおもなメソッド」|optional.isPresent(value -> {...})|optional.ifPresent(value -> {...})|2017/05/01|
 |6|p.183 (2)try-with-resources|じつはJava 7から、InputStreamなどのリソースを扱うクラスは、java.lang.AutoClosableインタフェースまたはjava.io.Closableインタフェースを実装するようになりました（java.io.Closableインタフェースは、java.lang.AutoClosableインタフェースを継承しています）。|じつはJava 7から、InputStreamなどのリソースを扱うクラスは、java.lang.AutoCloseableインタフェースまたはjava.io.Closeableインタフェースを実装するようになりました（java.io.Closeableインタフェースは、java.lang.AutoCloseableインタフェースを継承しています）。|2017/04/18|
 |8|p.231 「Java 7以降でバイナリファイルを読み込むには」のコード|for (int ch; (ch = stream.read()) != -1; ) {|for (int ch; (ch = is.read()) != -1; ) {|2017/04/25|
+|8|p.233 表「OpenOption の指定例 1」|DELETE_ON_CLOSE の行|（削除）|2017/05/01|
 |8|p.253 図「staff.xml をツリー構造で表すと」|Document-Element(staff)|Document-Element(staffs)|2017/04/29|
 |8|p.256 頭のソースコード 8L|parser = factory.newSAXParser();|（削除）|2017/05/01|
 |9|p.286 「DateTimeParseException 例外が発生します」の実行結果|java.time.format.DateTimeParseException: Text '2017-02-25 19:09:59' could not be parsed at index 4|java.time.format.DateTimeParseException: Text '2017/02/25' could not be parsed at index 10|2017/04/29|
 |12|p.354 「12-2-3 Singletonパターン　～あるクラスについて、インスタンスが単一であることを保証する」のコード|return instance|return instance;|2017/04/25|
 |索引|p.437|AutoClosableインタフェース<br>Closableインタフェース|AutoCloseableインタフェース<br>Closeableインタフェース|2017/04/18|
 |索引|p.441|valueSetメソッド|valuesメソッド|2017/04/18|
+|索引|p.438|（DELETE_ON_CLOSEのページ数）233|246|2017/05/01|
 |著者略歴|p.446 谷本 心|関西 Java エンジニアの立ち上げや、|関西 Java エンジニアの会の立ち上げや、|2017/04/22|
