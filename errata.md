@@ -12,6 +12,8 @@
 |3|p.63 表「プリミティブ型」の「boolean」行「サイズ」列|1bit|-|2017/04/22|
 |3|p.70 3L|valueOfメソッドを利用した場合は、-127から128の範囲であれば|valueOfメソッドを利用した場合は、-128から127の範囲であれば|2017/04/22|
 |3|p.77 「StaticTest.java」のコード（2カ所）|instanceFiled|instanceField|2017/05/01|
+|3|p.78 「StaticTestMain.java」のコード（2カ所）|instanceFiled|instanceField|2017/05/01|
+|3|p.78 「StaticTestMain.java」のコード 16L|System.out.println(test.instanceMethod()); // Hi Murata yay!|System.out.println(test.instanceMethod()); // Hi Okada yay!|2017/05/02|
 |3|p.82 「3-2-7 インタフェース」中央|インタフェースは必ずpublicになるため、インタフェース名の前に書くpublicは省略することができます。ただ、筆者はpublicであることを明示するため、常にpublicをつけるようにしています。|（削除）|2017/04/18|
 |4|p.108 「4-1-1 配列の基本を理解する」 中央のコード|int fib1 = 1;<br>int fib2 = 1;|int fib0 = 0;<br>int fib1 = 1;<br>int fib2 = fib0 + fib1;|2017/04/18|
 |4|p.126 「4-3-3 Listの代表的なメソッド」 の実行結果|⑧Shinが含まれているか：true|⑧Shinが含まれているか：false|2017/05/01|
