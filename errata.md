@@ -33,6 +33,12 @@
 |9|p.286 「DateTimeParseException 例外が発生します」の実行結果|java.time.format.DateTimeParseException: Text '2017-02-25 19:09:59' could not be parsed at index 4|java.time.format.DateTimeParseException: Text '2017/02/25' could not be parsed at index 10|2017/04/29|
 |12|p.352 「12-2-2 Builderパターン　〜複合化されたインスタンスの生成過程を隠ぺいする」のコード|（追加）|■TopPage.java<br>public class TopPage extends Page {<br>&nbsp;&nbsp;&nbsp;&nbsp;// 内容はPageと同じ。<br>}|2017/05/01|
 |12|p.354 「12-2-3 Singletonパターン　～あるクラスについて、インスタンスが単一であることを保証する」のコード|return instance|return instance;|2017/04/25|
+|13|p.378 「13-1-2 Mavenの基本的な利用方法」のディレクトリ構成<br><br>※ディレクトリ修正版のソースコードは https://github.com/acroquest/javabook-maven-example/tree/%2322|src/main/java/com/java/book/app/App.java<br>src/test/java/com/java/book/app/AppTest.java|src/main/java/jp/co/acroquest/javabook/maven/App.java<br>src/test/java/jp/co/acroquest/javabook/maven/AppTest.java|2017/05/03|
+|13|p.379、p.382 pom.xmlサンプル|&lt;groupId&gt;com.java.book.app&lt;/groupId&gt;|&lt;groupId&gt;jp.co.acroquest.javabook&lt;/groupId&gt;|2017/05/03|
+|13|p.399、p.400 「13-5-2 テストコードを実装する」のコード|package acroquest.java.junit;|package jp.co.acroquest.javabook.junit;|2017/05/03|
+|14|p.430 「(2)ログ出力コードの記述」のコード|package acroquest.java.log;|package jp.co.acroquest.javabook.log;|2017/05/03|
+|14|p.430、p.431 ログ出力例|2016-05-01 12:34:56,789 [main] INFO acroquest.java.log.LogbackSample - アプリケーションを実行しました。|2016-05-01 12:34:56,789 [main] INFO jp.co.acroquest.javabook.log.LogbackSample - アプリケーションを実行しました。|2017/05/03|
+|14|p.432 logback.xml|&lt;logger name="acroquest.java.log.dao" level="DEBUG" /&gt;|&lt;logger name="jp.co.acroquest.javabook.log.dao" level="DEBUG" /&gt;|2017/05/03|
 |索引|p.437|AutoClosableインタフェース<br>Closableインタフェース|AutoCloseableインタフェース<br>Closeableインタフェース|2017/04/18|
 |索引|p.438|（DELETE_ON_CLOSEのページ数）233|246|2017/05/01|
 |索引|p.441|valueSetメソッド|valuesメソッド|2017/04/18|
