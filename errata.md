@@ -34,7 +34,7 @@
 |12|p.352 「12-2-2 Builderパターン　〜複合化されたインスタンスの生成過程を隠ぺいする」のコード|（追加）|■TopPage.java<br>public class TopPage extends Page {<br>&nbsp;&nbsp;&nbsp;&nbsp;// 内容はPageと同じ。<br>}|2017/05/01|
 |12|p.354 「12-2-3 Singletonパターン　～あるクラスについて、インスタンスが単一であることを保証する」のコード|return instance|return instance;|2017/04/25|
 |13|p.378 「13-1-2 Mavenの基本的な利用方法」のディレクトリ構成<br><br>※ディレクトリ修正版のソースコードは https://github.com/acroquest/javabook-maven-example/tree/%2322|src/main/java/com/java/book/app/App.java<br>src/test/java/com/java/book/app/AppTest.java|src/main/java/jp/co/acroquest/javabook/maven/App.java<br>src/test/java/jp/co/acroquest/javabook/maven/AppTest.java|2017/05/03|
-|13|p.379、p.382 pom.xmlサンプル|&lt;groupId&gt;com.java.book.app&lt;/groupId&gt;|&lt;groupId&gt;jp.co.acroquest.javabook&lt;/groupId&gt;|2017/05/03|
+|13|p.379、p.382 pom.xmlサンプル|&lt;groupId&gt;com.java.book.app&lt;/groupId&gt;<br>&lt;url&gt;[http://maven.apache.org](http://maven.apache.org)&lt;/url&gt;|&lt;groupId&gt;jp.co.acroquest.javabook&lt;/groupId&gt;<br>&lt;url&gt;[https://github.com/acroquest/javabook-maven-example](https://github.com/acroquest/javabook-maven-example)&lt;/url&gt;|2017/05/03|
 |13|p.399、p.400 「13-5-2 テストコードを実装する」のコード|package acroquest.java.junit;|package jp.co.acroquest.javabook.junit;|2017/05/03|
 |14|p.430 「(2)ログ出力コードの記述」のコード|package acroquest.java.log;|package jp.co.acroquest.javabook.log;|2017/05/03|
 |14|p.430、p.431 ログ出力例|2016-05-01 12:34:56,789 [main] INFO acroquest.java.log.LogbackSample - アプリケーションを実行しました。|2016-05-01 12:34:56,789 [main] INFO jp.co.acroquest.javabook.log.LogbackSample - アプリケーションを実行しました。|2017/05/03|
