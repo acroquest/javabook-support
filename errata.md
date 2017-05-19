@@ -15,9 +15,11 @@
 |3|p.78 「StaticTestMain.java」のコード（2カ所）|instanceFiled|instanceField|2017/05/01|
 |3|p.78 「StaticTestMain.java」のコード 16L|System.out.println(test.instanceMethod()); // Hi Murata yay!|System.out.println(test.instanceMethod()); // Hi Okada yay!|2017/05/02|
 |3|p.82 「3-2-7 インタフェース」中央|インタフェースは必ずpublicになるため、インタフェース名の前に書くpublicは省略することができます。ただ、筆者はpublicであることを明示するため、常にpublicをつけるようにしています。|（削除）|2017/04/18|
-|3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのサンプルコード2行目|private int employeNo;|private int employeeNo;|2017/05/19|
-|3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのサンプルコード11行目|result = prime * result + employeNo;|result = prime * result + employeeNo;|2017/05/19|
+|3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのコード2行目|private int employeNo;|private int employeeNo;|2017/05/19|
+|3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのコード11行目|result = prime * result + employeNo;|result = prime * result + employeeNo;|2017/05/19|
 |4|p.108 「4-1-1 配列の基本を理解する」 中央のコード|int fib1 = 1;<br>int fib2 = 1;|int fib0 = 0;<br>int fib1 = 1;<br>int fib2 = fib0 + fib1;|2017/04/18|
+|4|p.116 Note「Comparatorか、Comparableか？」のコード|public Student2(String name, int score) {|public Student(String name, int score) {|2017/05/19|
+|4|p.116 Note「Comparatorか、Comparableか？」のコード|public int compareTo(Student2 o) {|public int compareTo(Student o) {|2017/05/19|
 |4|p.126 「4-3-3 Listの代表的なメソッド」 の実行結果|⑧Shinが含まれているか：true|⑧Shinが含まれているか：false|2017/05/01|
 |4|p.129 「4-3-6 Listのイテレーション」中央のコード|for (Iterator iterator = list.iterator(); iterator.hasNext(); ) {|for (Iterator&lt;String&gt; iterator = list.iterator(); iterator.hasNext(); ) {|2017/05/08|
 |4|p.134 表「Mapインタフェースでの要素の取得、変換」の「メソッド名」「役割」「説明」|valueSet　値の集合の取得　Mapないのすべての要素の値の集合を取得する|values　値のコレクションの取得　Map内のすべての要素の値のコレクションを取得する|2017/04/18|
