@@ -15,6 +15,8 @@
 |3|p.78 「StaticTestMain.java」のコード（2カ所）|instanceFiled|instanceField|2017/05/01|
 |3|p.78 「StaticTestMain.java」のコード 16L|System.out.println(test.instanceMethod()); // Hi Murata yay!|System.out.println(test.instanceMethod()); // Hi Okada yay!|2017/05/02|
 |3|p.82 「3-2-7 インタフェース」中央|インタフェースは必ずpublicになるため、インタフェース名の前に書くpublicは省略することができます。ただ、筆者はpublicであることを明示するため、常にpublicをつけるようにしています。|（削除）|2017/04/18|
+|3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのサンプルコード2行目|private int employeNo;|private int employeeNo;|2017/05/19|
+|3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのサンプルコード11行目|result = prime * result + employeNo;|result = prime * result + employeeNo;|2017/05/19|
 |4|p.108 「4-1-1 配列の基本を理解する」 中央のコード|int fib1 = 1;<br>int fib2 = 1;|int fib0 = 0;<br>int fib1 = 1;<br>int fib2 = fib0 + fib1;|2017/04/18|
 |4|p.126 「4-3-3 Listの代表的なメソッド」 の実行結果|⑧Shinが含まれているか：true|⑧Shinが含まれているか：false|2017/05/01|
 |4|p.129 「4-3-6 Listのイテレーション」中央のコード|for (Iterator iterator = list.iterator(); iterator.hasNext(); ) {|for (Iterator&lt;String&gt; iterator = list.iterator(); iterator.hasNext(); ) {|2017/05/08|
