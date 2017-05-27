@@ -17,7 +17,7 @@
 |3|p.77 「StaticTest.java」のコード（2カ所）|instanceFiled|instanceField|2017/05/01|
 |3|p.78 「StaticTestMain.java」のコード（2カ所）|instanceFiled|instanceField|2017/05/01|
 |3|p.78 「StaticTestMain.java」のコード 16L|System.out.println(test.instanceMethod()); // Hi Murata yay!|System.out.println(test.instanceMethod()); // Hi Okada yay!|2017/05/02|
-|3|p.82 「3-2-7 インタフェース」中央|インタフェースは必ずpublicになるため、インタフェース名の前に書くpublicは省略することができます。ただ、筆者はpublicであることを明示するため、常にpublicをつけるようにしています。|（削除）|2017/04/18|
+|3|p.82 「3-2-7 インタフェース」中央|インタフェースは必ずpublicになるため、インタフェース名の前に書くpublicは省略することができます。ただ、筆者はpublicであることを明示するため、常にpublicをつけるようにしています。|インタフェースの修飾子はクラスと同じく、publicと指定なし（パッケージプライベート）があります。インタフェースは他から使用されることが前提なこともあり、筆者はpublicにしています。|2017/05/28|
 |3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのコード2行目|private int employeNo;|private int employeeNo;|2017/05/19|
 |3|p.90 「3-3-2 オブジェクトの等価性」中央 hashCodeメソッドのコード11行目|result = prime * result + employeNo;|result = prime * result + employeeNo;|2017/05/19|
 |3|p.100 「3-4-2 ジェネリクス（総称型）」コード内コメント|Java 7ならばダイヤモンドオペレータが使用可能|Java 7以降ならばダイヤモンドオペレータが使用可能|2017/05/25|
@@ -32,10 +32,9 @@
 |4|p.129 「4-3-6 Listのイテレーション」中央のコード|for (Iterator iterator = list.iterator(); iterator.hasNext(); ) {|for (Iterator&lt;String&gt; iterator = list.iterator(); iterator.hasNext(); ) {|2017/05/08|
 |4|p.129 「4-3-6 Listのイテレーション」|for-eachを使ったリストとiteratorを使ったリストを見比べると、|for-each文を使ったリストとiteratorを使ったリストを見比べると、|2017/05/25|
 |4|p.134 表「Mapインタフェースでの要素の取得、変換」の「メソッド名」「役割」「説明」|valueSet　値の集合の取得　Mapないのすべての要素の値の集合を取得する|values　値のコレクションの取得　Map内のすべての要素の値のコレクションを取得する|2017/04/18|
-|4|p.145 Note「MapとSetの関係」|通常は boolean 型で「TRUE」が格納されます。この boolean 値は、使用されることはありません。|通常は Boolean 型で「TRUE」が格納されます。この Boolean 値は、使用されることはありません。|2017/04/22|
+|4|p.145 Note「MapとSetの関係」|通常は boolean 型で「TRUE」が格納されます。この boolean 値は、使用されることはありません。|通常はObject型のインスタンスが格納されます（Java 8 Update 131現在）。このインスタンスは、使用されることはありません。|2017/05/28|
 |5|p.150 「5-1-1 Stream APIでコレクションの操作はどう変わるか」のコード|//「中間操作」。score が 70 より大きい Student の抽出|//「中間操作」。score が 70 以上の Student の抽出|2017/05/01|
 |5|p.153 「関数型インタフェースの代替として使用する」のコード|students.forEach(s -><br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(s.getName() + ":" + s.getScore()));|Arrays.stream(students).forEach(s -><br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(s.getName() + ":" + s.getScore()));|2017/04/23|
-|5|p.161 「5-3 Streamに対する「中間操作」」|コレクションなどからStreamインスタンスを作成したら、|コレクションなどからStreamインスタンスを作成すると、|2017/05/25|
 |5|p.162 「5-3-1 要素を置き換える中間操作」の説明文|このFunctionような代入先となる関数型インタフェースを引数に持つことで、|このFunctionのような代入先となる関数型インタフェースを引数に持つことで、|2017/05/22|
 |5|p.165 「5-3-2 要素を絞り込む中間操作」|students.stream()<br>&nbsp;&nbsp;&nbsp;&nbsp;.distinct() // ユニークな要素に絞り込む<br>&nbsp;&nbsp;&nbsp;&nbsp;.forEach(System.out::println);|strings.stream()<br>&nbsp;&nbsp;&nbsp;&nbsp;.distinct() // ユニークな要素に絞り込む<br>&nbsp;&nbsp;&nbsp;&nbsp;.forEach(System.out::println);|2017/05/25|
 |6|p.197 (2)ラムダ式の中で発生した例外の扱い|ラムダの中に記述した処理で例外が発生する可能性があります。それが検査例外だった場合は、捕捉しないと、コンパイルエラーが発生します。|ラムダの中に記述した処理で例外が発生する可能性があります。特にStream APIで利用する、java.util.functionパッケージにある関数型インタフェースに対するラムダ式の場合、ラムダ式内で発生する例外が検査例外だった場合は、捕捉しないと、コンパイルエラーが発生します。|2017/04/18|
