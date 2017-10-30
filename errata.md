@@ -15,6 +15,7 @@
 |5|p.163 「5-3-1　要素を置き換える中間操作」説明文|mapメソッドのみを使った場合と、flatMapメソッドを使った場合で、ソースコードがどのように異なるのか見てみましょう。|flatMapメソッドを使わない場合と、flatMapメソッドを使った場合で、ソースコードがどのように異なるのか見てみましょう。|2017/06/22|
 |5|p.164 「5-3-1　要素を置き換える中間操作」コードタイトル|mapメソッドのみを使った場合|flatMapメソッドを使わない場合|2017/06/22|
 |5|p.164 「5-3-1　要素を置き換える中間操作」コード|groups.stream().forEach(g -> allStudents.addAll(g.getStudents()));|groups.stream()<br>&nbsp;&nbsp;&nbsp;&nbsp;.forEach(g -> allStudents.addAll(g.getStudents()));|2017/06/22|
+|10|p.296 「10-1-2　操作しても値が変わらないイミュータブルなクラス」Note内の2つ目のコード|number = Integer.valueOf(number);|number = Integer.valueOf(number2);|2017/10/30|
 
 ## 第1刷
 
