@@ -16,6 +16,7 @@
 |5|p.164 「5-3-1　要素を置き換える中間操作」コードタイトル|mapメソッドのみを使った場合|flatMapメソッドを使わない場合|2017/06/22|
 |5|p.164 「5-3-1　要素を置き換える中間操作」コード|groups.stream().forEach(g -> allStudents.addAll(g.getStudents()));|groups.stream()<br>&nbsp;&nbsp;&nbsp;&nbsp;.forEach(g -> allStudents.addAll(g.getStudents()));|2017/06/22|
 |10|p.296 「10-1-2　操作しても値が変わらないイミュータブルなクラス」Note内の2つ目のコード|number = Integer.valueOf(number);|number = Integer.valueOf(number2);|2017/10/30|
+|13|p.409 「13-6-4　Jenkinsでレポートを生成する」|・Checkstyle警告の修正<br>・FindBugs警告の修正|・Checkstyle警告の集計<br>・FindBugs警告の集計|2017/11/25|
 
 ## 第1刷
 
