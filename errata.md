@@ -6,7 +6,7 @@
 
 |ch|頁|誤|正|update|
 |---|---|---|---|---|
-|4|p.111 「4-1-3　配列への代入と取り出し」コード|System.outprintln(array[5]);&br;System.outprintln(value);|System.out.println(array[5]);&br;System.out.println(value);|2018/2/25|
+|4|p.111 「4-1-3　配列への代入と取り出し」コード|System.outprintln(array[5]);<br>System.outprintln(value);|System.out.println(array[5]);<br>System.out.println(value);|2018/2/25|
 |4|p.142 「4-5-1　Setの初期化」コード|int[] integerArray = new int[] {1, 62, 31, 1, 54, 31};|Integer[] integerArray = {1, 62, 31, 1, 54, 31};|2017/9/19|
 |5|p.161 「5-3-1　要素を置き換える中間操作」説明文|なおFunctionは、ラムダ式やメソッド参照の代入先として利用するための関数型インタフェースです。|このmapメソッドで用いられるFunctionインタフェースは、ラムダ式やメソッド参照の代入先として利用するための関数型インタフェースです。|2017/06/22|
 |5|p.161 「5-3-1　要素を置き換える中間操作」説明文|という宣言内容で、以下のメソッドを持ちます。|という宣言内容で、次に示すapplyメソッドのみを持ちます。|2017/06/22|
