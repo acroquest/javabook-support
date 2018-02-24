@@ -6,16 +6,17 @@
 
 |ch|頁|誤|正|update|
 |---|---|---|---|---|
-|4|p.111 「4-1-3　配列への代入と取り出し」コード|System.outprintln(array[5]);<br>System.outprintln(value);|System.out.println(array[5]);<br>System.out.println(value);|2018/2/25|
-|4|p.142 「4-5-1　Setの初期化」コード|int[] integerArray = new int[] {1, 62, 31, 1, 54, 31};|Integer[] integerArray = {1, 62, 31, 1, 54, 31};|2017/9/19|
+|4|p.111 「4-1-3　配列への代入と取り出し」コード|System.outprintln(array[5]);<br>System.outprintln(value);|System.out.println(array[5]);<br>System.out.println(value);|2018/02/25|
+|4|p.129 「4-3-6　Listのイテレーション」コード|for (Iterator iterator = list.iterator(); iterator.hasNext(); ) {|for (Iterator&lt;String&gt; iterator = list.iterator(); iterator.hasNext(); ) {|2018/02/25|
+|4|p.142 「4-5-1　Setの初期化」コード|int[] integerArray = new int[] {1, 62, 31, 1, 54, 31};|Integer[] integerArray = {1, 62, 31, 1, 54, 31};|2017/09/19|
 |5|p.161 「5-3-1　要素を置き換える中間操作」説明文|なおFunctionは、ラムダ式やメソッド参照の代入先として利用するための関数型インタフェースです。|このmapメソッドで用いられるFunctionインタフェースは、ラムダ式やメソッド参照の代入先として利用するための関数型インタフェースです。|2017/06/22|
 |5|p.161 「5-3-1　要素を置き換える中間操作」説明文|という宣言内容で、以下のメソッドを持ちます。|という宣言内容で、次に示すapplyメソッドのみを持ちます。|2017/06/22|
 |5|p.162 「5-3-1　要素を置き換える中間操作」説明文|なお、先にも述べたとおり、実際にはStreamのインスタンスを変数に代入することはありません。|なお、先にも述べたとおり、実際にはStreamのインスタンスを変数に代入することはあまりありませんが、ここでは分かりやすさのために代入しています。|2017/06/22|
 |5|p.162 「5-3-1　要素を置き換える中間操作」説明文|そのため、これらのメソッドを経由することで、後述するsumやaverageのような数値処理メソッドが利用できるようになります。|これらの数値用のStreamでは、後述するsumやaverageのような数値処理メソッドが利用できます。|2017/06/22|
-|5|p.163 「5-3-1　要素を置き換える中間操作」1つ目のコード|private List<Student> students;|private List<Student> students = new ArrayList<>();|2017/09/19|
+|5|p.163 「5-3-1　要素を置き換える中間操作」1つ目のコード|private List&lt;Student&gt; students;|private List&lt;Student&gt; students = new ArrayList&lt;&gt;();|2017/09/19|
 |5|p.163 「5-3-1　要素を置き換える中間操作」説明文|mapメソッドのみを使った場合と、flatMapメソッドを使った場合で、ソースコードがどのように異なるのか見てみましょう。|flatMapメソッドを使わない場合と、flatMapメソッドを使った場合で、ソースコードがどのように異なるのか見てみましょう。|2017/06/22|
 |5|p.164 「5-3-1　要素を置き換える中間操作」コードタイトル|mapメソッドのみを使った場合|flatMapメソッドを使わない場合|2017/06/22|
-|5|p.164 「5-3-1　要素を置き換える中間操作」コード|groups.stream().forEach(g -> allStudents.addAll(g.getStudents()));|groups.stream()<br>&nbsp;&nbsp;&nbsp;&nbsp;.forEach(g -> allStudents.addAll(g.getStudents()));|2017/06/22|
+|5|p.164 「5-3-1　要素を置き換える中間操作」コード|groups.stream().forEach(g -&gt; allStudents.addAll(g.getStudents()));|groups.stream()<br>&nbsp;&nbsp;&nbsp;&nbsp;.forEach(g -&gt; allStudents.addAll(g.getStudents()));|2017/06/22|
 |6|p.179 「6-1-2　例外を表す3つのクラス」説明文|発生するメソッドのシグネチャ（宣言の内容）でthrows節を記述する必要があります。|発生するメソッドの宣言でthrows節を記述する必要があります。|2017/12/09|
 |6|p.179 「6-1-2　例外を表す3つのクラス」説明文|throws節をメソッドのシグネチャに記述すると、その処理で例外が発生することがわかります。|throws節をメソッドの宣言に記述すると、その処理で例外が発生することがわかります。|2017/12/09|
 |6|p.179 「6-1-2　例外を表す3つのクラス」説明文|上に書いたように、シグネチャで例外が記述されているメソッドは、|上に書いたように、宣言で例外が記述されているメソッドは、|2017/12/09|
