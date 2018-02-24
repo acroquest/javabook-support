@@ -6,6 +6,7 @@
 
 |ch|頁|誤|正|update|
 |---|---|---|---|---|
+|2|p.45 「2-2-1　クラスの宣言」説明文|クラスは、classブロック内に、保持させるを変数を宣言して作ります。|クラスは、classブロック内に、保持させる変数を宣言して作ります。|2018/02/25|
 |4|p.111 「4-1-3　配列への代入と取り出し」コード|System.outprintln(array[5]);<br>System.outprintln(value);|System.out.println(array[5]);<br>System.out.println(value);|2018/02/25|
 |4|p.129 「4-3-6　Listのイテレーション」コード|for (Iterator iterator = list.iterator(); iterator.hasNext(); ) {|for (Iterator&lt;String&gt; iterator = list.iterator(); iterator.hasNext(); ) {|2018/02/25|
 |4|p.142 「4-5-1　Setの初期化」コード|int[] integerArray = new int[] {1, 62, 31, 1, 54, 31};|Integer[] integerArray = {1, 62, 31, 1, 54, 31};|2017/09/19|
