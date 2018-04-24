@@ -30,6 +30,7 @@
 |9|p.278 「9-2-4　年月日の各フィールドの値を個別に取得できる」コード|LocalDateTime dateTime = LocalDateTime.of(2017, Month.JANUARY, 2, 3, 45, 67, 890_000_000);|LocalDateTime dateTime = LocalDateTime.of(2017, Month.JANUARY, 2, 3, 45, 6, 890_000_000);|2018/03/25|
 |9|p.279 「9-2-4　年月日の各フィールドの値を個別に取得できる」出力例|秒       : 67|秒       : 6|2018/03/25|
 |10|p.296 「10-1-2　操作しても値が変わらないイミュータブルなクラス」Note内の2つ目のコード|number = Integer.valueOf(number);|number = Integer.valueOf(number2);|2017/10/30|
+|12|p.370 「12-4-3　Iteratorパターン　～保有するインスタンスの各要素に順番にアクセスする方法を提供する」クラス図|hashNext()|hasNext()|2018/04/24|
 |13|p.409 「13-6-4　Jenkinsでレポートを生成する」|・Checkstyle警告の修正<br>・FindBugs警告の修正|・Checkstyle警告の集計<br>・FindBugs警告の集計|2017/11/25|
 
 ## 第1刷
